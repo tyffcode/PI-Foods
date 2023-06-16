@@ -28,6 +28,8 @@ module.exports = (sequelize) => {
     steps:{
       type: DataTypes.STRING,
       allowNull: false
-    }
-  });
+    },
+  },
+  { timestamps: false },
+  );
 };

@@ -9,7 +9,7 @@ const router = Router();
 // Ejemplo: router.use('/auth', authRouter);
 
 //Buscar recetas por ID
-// router.get('/recipes/:id', getRecipes);
+router.get('/recipes/:id', getRecipes);
 
 // // Buscar todas las recetas
 // router.get('/recipes', getAllRecipes)
